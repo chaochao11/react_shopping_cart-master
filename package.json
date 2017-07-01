@@ -1,0 +1,28 @@
+{
+  "name": "react_shopping_cart",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://liliang-cn.github.io/react_shopping_cart",
+  "devDependencies": {
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gh-pages": "^0.12.0",
+    "lodash": "^4.17.2",
+    "material-ui": "^0.16.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.6",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build",
+    "clean": "rimraf node_modules/gh-pages/.cache"
+  }
+}
